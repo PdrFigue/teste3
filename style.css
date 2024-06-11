@@ -47,7 +47,7 @@ header{
 
 header .logo{grid-column: 1/1;}
 header .menu{grid-column: 3/4;}
-header img{width: 120px; height: 95px; margin-left: 30px;}
+header img{width: 120px; height: 95px; margin-left: 30px; }
 header nav{display: flex;} 
 header li a{color: #191c03;}
 header li {margin: 0 15px;}
@@ -80,16 +80,21 @@ header li:last-child{margin-right: 0;}
     text-align: center;
     align-items: center;
 
-    background-image: url(imagens/engrenagens.jpg);
+    background-image: url(imagens/engrenagens4.png);
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    background-color: rgba(128, 128, 128, 0.116);    
+    
+    /* background-color: rgba(128, 128, 128, 0.116); */
     
     
 }
 
-.conheca-empresa h1{font-size: 3.2rem; margin-bottom: 15px; }
-.conheca-empresa h3{font-size: 1.2rem; margin-bottom: 15px; max-width: 1000px; text-align: justify; margin: 20px;}
+
+
+
+.conheca-empresa h1{font-size: 2rem; margin-bottom: 40px; }
+.conheca-empresa p{font-size: 15px; margin-bottom: 15px; max-width: 1000px; text-align: center; margin: 20px;}
 
 /* .conheca-empresa .btn{background-color: #fff; border-radius: 4px; color: #191c03; padding: 20px 50px; text-transform: uppercase;} */
 
@@ -116,7 +121,7 @@ header li:last-child{margin-right: 0;}
 .conheca-servicos h1{
     font-size: 2rem; color: white; margin-bottom: 35px;text-align: center; background-color: rgb(8, 43, 107); border-radius: 8px;}
 
-.texto h3{font-size: 14px; margin-bottom: 15px; ; text-align: justify; margin-top: 10px; margin-left: 8%; margin-right: 8%;}
+.texto p{font-size: 14px; margin-bottom: 15px; ; text-align: justify; margin-top: 10px; margin-left: 8%; margin-right: 8%;}
 
 .todos-servicos {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
 
