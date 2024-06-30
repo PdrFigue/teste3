@@ -1,0 +1,39 @@
+/*GALERIA*/
+.galeria{
+    /* background-color: rgba(128, 128, 128, 0.144); */
+    
+    padding-top: 0px; 
+    padding-bottom: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+.geral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    gap: 20px;
+}
+
+.galeria .imagens{
+    border-radius: 6px; max-width: 353px;    
+}
+
+
+@media (max-width: 1034px){
+    .fotos  {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        min-width: 50%;
+        /* gap: 30px; */
+    }
+}
+   

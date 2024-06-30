@@ -12,13 +12,26 @@ ul, nav{
 }
 
 .menu a{
-    text-decoration: none; cursor:pointer; opacity: 0.7; font-size: 18px;
+    text-decoration: none; 
+    cursor:pointer; 
+    opacity: 0.7; 
+    font-size: 18px;
 }
+
+.menu-limite{
+    display: flex;
+    justify-content: space-around;
+    width: 1600px;
+    align-items: end;
+}
+
 
 a:hover {opacity: 1; color: rgb(15, 15, 219);}
 
+spam {color: blue; font-size: 16px; font-weight: bold;}
+
 /*html{
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
     scroll-padding-top: 90px; 
 }
 
@@ -28,22 +41,18 @@ a:hover {opacity: 1; color: rgb(15, 15, 219);}
 header{
     width: 100%; 
     position: absolute; 
-    top: 0; 
-    left: 0; 
-    display: grid;
-    flex-direction: column; 
-    grid-template-columns: 1fr 1fr 1fr; 
-   
-    justify-content: center;
-    gap: 100px; 
+    display: flex;
+    justify-content:center;
+    gap: 400px; 
 
     align-items: end; 
-    padding: 10px;
-    padding-right: 50px;
+    padding-top: 10px;
+    /* padding-right: 50px; */
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 4px;
     position: fixed;
 }
+
 
 header .logo{grid-column: 1/1;}
 header .menu{grid-column: 3/4;}
@@ -57,229 +66,15 @@ header li:last-child{margin-right: 0;}
 
 
 
+
 @media (max-width: 750px){
-    header{display:flex; flex-direction: column; align-items: center; padding-left: 15px;}
+    header{display:flex; flex-direction: column; align-items: center;}
     header img{margin-bottom: 8px;}
     /* header .logo{grid-column: 1/4;} */
-    .menu {display: grid; width: 90%; 
+    
+    .menu {display: flex; width: 10%; 
     } 
 }
 
 
 
-
-
-
-
-/* CONHEÇA NOSSA EMPRESA*/
-
-.conheca-empresa{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-
-    background-image: url(imagens/engrenagens4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    
-    /* background-color: rgba(128, 128, 128, 0.116); */
-    
-    
-}
-
-
-
-
-.conheca-empresa h1{font-size: 2rem; margin-bottom: 40px; }
-.conheca-empresa p{font-size: 15px; margin-bottom: 15px; max-width: 1000px; text-align: center; margin: 20px;}
-
-/* .conheca-empresa .btn{background-color: #fff; border-radius: 4px; color: #191c03; padding: 20px 50px; text-transform: uppercase;} */
-
-
-@media (max-width: 750px){
-    .conheca-empresa h1 {font-size: 2.5rem;}
-    .conheca-empresa h3 {font-size: 0.9rem;}
-}
-
-
-
-/*CONHEÇA NOSSOS SERVIÇOS*/
-
-.conheca-servicos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-top: 120px; 
-    padding-bottom: 100px;
-    text-align: center;
-}
-
-.conheca-servicos h1{
-    font-size: 2rem; color: white; margin-bottom: 35px;text-align: center; background-color: rgb(8, 43, 107); border-radius: 8px;}
-
-.texto p{font-size: 14px; margin-bottom: 15px; ; text-align: justify; margin-top: 10px; margin-left: 8%; margin-right: 8%;}
-
-.todos-servicos {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
-
-.servicos p{text-align: justify;}
-.servicos {text-align: center; max-width: 500px;}
-
-.servicos .imagens {border-radius: 15px;}
-
-
-@media (max-width: 750px){
-    .imagens {max-width: 95%;}
-    .todos-servicos .servicos p{margin-left: 15px;margin-right: 15px;}
-}
-
-
-
-
-    /*GALERIA*/
-    .galeria{
-        background-color: rgba(128, 128, 128, 0.144);
-        padding-top: 120px; 
-        padding-bottom: 100px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .galeria h1{
-        font-size: 2rem;
-        color: white;
-        margin-bottom: 35px;
-        text-align: center;
-        background-color: rgb(8, 43, 107);
-        border-radius: 8px;
-    }
-    
-    .fotos{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-
-    }
-
-    .galeria .imagens{
-        border-radius: 6px; max-width: 300px;
-    }
-    
- 
-    
-
-    @media (max-width: 750px){
-        .fotos  {
-            display: flex;
-            justify-content: center;
-            max-width: 100%;
-            min-width: 50%;
-            gap: 30px;
-        }
-    }
-       
-
-
-
-    /*FOOTER*/
-
- .conteudo-rodape{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 300px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    color: #fff;
-    margin-top: 50px;
-}
-
-.rodape a{
-    text-decoration: none; cursor:pointer; opacity: 0.85; font-size: 18px;
-}
-
- a:hover {opacity: 1;}
- 
-
-.rodape{
-    background-color: rgb(8, 43, 107);
-    /* border-radius: 10px; */
-}
-
-.rodape p{
-    text-align: center;
-}
-
-.icones-sociais{
-    display: flex;
-    gap: 20px;
-}
-
-.icone{
-    margin-left: 10px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    max-width: 40px;
-}
-
-.info #cnpj, #endereco{font-size: 10px;}
-
-.info{margin-bottom: 100px;}
-
-
-
-
-
-
-/*ESTILIZANDO O MENU MOBILE*/
-
-button{
-    width: 40px;
-    height: 40px;
-    border: 4px solid #ccc;
-}
-
-
-.menu-mobile{
-    background-color: rgba(0, 0, 0, 0.493);
-    position: absolute;
-    backdrop-filter: blur(5px);
-    top:122px;
-    left: 0;
-    width: 0%;
-    height: 100vh;
-    
-}
-
-.menu-mobile a{
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 30px;
-    font-size: 16pt;
-    display: none;
-}
-
-.menu-mobile{
-    display: flex;
-    flex-direction: column;
-}
-
-.menu-mobile a:hover{
-    background-color: rgba(7, 67, 177, 0.938);
-}
-
-
-@media screen and (max-width: 750px) {
-    .menu{
-        display: none;
-    }
-    
-    
-}

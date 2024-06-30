@@ -1,0 +1,85 @@
+ /*FOOTER*/
+
+ .conteudo-rodape{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.rodape a{
+    text-decoration: none; cursor:pointer; opacity: 0.85; font-size: 18px;
+}
+
+ a:hover {opacity: 1;}
+ 
+
+.rodape{
+    background-color: rgb(8, 43, 107);
+    /* border-radius: 10px; */
+}
+
+.rodape p{
+    text-align: center;
+}
+
+.icones-sociais{
+    display: flex;
+    gap: 20px;
+}
+
+.icone{
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    max-width: 40px;
+}
+
+.info #cnpj, #endereco{font-size: 10px;}
+
+.info{margin-bottom: 100px;}
+
+
+
+.address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0rem;
+    /* background-color: blue; */
+}
+
+.address .map{
+    border-radius: 10px;
+    width: 70rem;
+    padding-bottom: 5rem;
+}
+
+
+@media (max-width: 1114px){
+    .address .map{
+        border-radius: 10px;
+        width: 45rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 838px){
+    .address .map{
+        border-radius: 10px;
+        width: 45rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 742px){
+    .address .map{
+        border-radius: 10px;
+        width: 22rem;
+        padding-bottom: 5rem;
+    }
+}

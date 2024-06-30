@@ -1,0 +1,46 @@
+/*ESTILIZANDO O MENU MOBILE*/
+
+button{
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ccc;
+}
+
+
+.menu-mobile{
+    background-color: rgba(0, 0, 0, 0.493);
+    position: absolute;
+    backdrop-filter: blur(5px);
+    top:122px;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    
+}
+
+.menu-mobile a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 16pt;
+    display: none;
+}
+
+.menu-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-mobile a:hover{
+    background-color: rgba(7, 67, 177, 0.938);
+}
+
+
+@media screen and (max-width: 750px) {
+    .menu{
+        display: none;
+    }
+    
+    
+}
