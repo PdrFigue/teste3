@@ -23,7 +23,7 @@
 
 .home h1{font-size: 30px; margin-bottom: 40px; padding-top: 140px}
 
-.home p{font-size: 15px; margin-bottom: 15px; max-width: 1000px; text-align: justify; margin: 20px;}
+.home p{font-size: 15px; margin-bottom: 15px; max-width: 1000px; text-align: justify; margin: 10px;}
 
 
 @media (max-width: 550px){
