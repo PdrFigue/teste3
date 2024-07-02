@@ -21,7 +21,7 @@
 
 
 @media (max-width: 550px){
-    .conheca-empresa h1 {font-size: 2.2rem; }
+    .conheca-empresa h1 {font-size: 2.2rem; margin-top: -70px; }
     .conheca-empresa h3 {font-size: 0.9rem;}
     .conheca-empresa {padding-top: 100px;}
 }
