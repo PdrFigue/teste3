@@ -23,7 +23,7 @@
 }
 
 .galeria .imagens{
-    border-radius: 6px; max-width: 353px;    
+    border-radius: 6px; max-width: 350px;    
 }
 
 
@@ -32,7 +32,7 @@
         display: flex;
         justify-content: center;
         max-width: 100%;
-        min-width: 50%;
+        min-width: 70%;
         /* gap: 30px; */
     }
 }
