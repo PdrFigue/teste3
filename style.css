@@ -21,8 +21,22 @@ ul, nav{
 .menu-limite{
     display: flex;
     justify-content: space-around;
-    width: 1600px;
+    width: 1500px;
     align-items: end;
+}
+
+div .logo {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid violet; */
+    text-align: center;
+}
+
+div .logo img{
+    /* border: 1px solid blue; */
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -43,7 +57,7 @@ header{
     position: absolute; 
     display: flex;
     justify-content:center;
-    gap: 400px; 
+    gap: 0px; 
 
     align-items: end; 
     padding-top: 10px;
@@ -53,28 +67,32 @@ header{
     position: fixed;
 }
 
-
-header .logo{grid-column: 1/1;}
-header .menu{grid-column: 3/4;}
 header img{width: 120px; height: 95px; margin-left: 30px; }
 header nav{display: flex;} 
 header li a{color: #191c03;}
 header li {margin: 0 15px;}
-header li:first-child{margin-left: 0;}
-header li:last-child{margin-right: 0;}
 
 
 
 
 
 @media (max-width: 750px){
-    header{display:flex; flex-direction: column; align-items: center;}
-    header img{margin-bottom: 8px;}
+
+    header{
+        display:flex; 
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    header img{
+        margin-bottom: 8px;        
+    }
     /* header .logo{grid-column: 1/4;} */
     
-    .menu {display: flex; width: 10%; 
+    .menu {
+        display: flex;
     } 
+
+  
+
 }
-
-
-
