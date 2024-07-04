@@ -42,10 +42,11 @@
 
 .descricao p {
     text-align: justify;
+    font-size: 14px;
 }
 
-.servicos .imagens {
-    border-radius: 15px;
+.descricao .imagens {
+    border-radius: 8px;
 }
 
 

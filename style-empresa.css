@@ -14,10 +14,16 @@
     /* background-color: rgba(128, 128, 128, 0.116); */
 }
 
-.spam2{
+.span2{
     color: black;
+    font-weight: 600;
 }
 
+.span3{
+    color: blue;
+    font-weight: 600;
+    font-style: italic;
+}
 
 
 
